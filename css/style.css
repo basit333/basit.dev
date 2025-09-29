@@ -4791,3 +4791,22 @@ button::-moz-focus-inner {
     font-size: calc(1.5rem + 0.375 * (100vw - 22.5rem) / 37.5);
   }
 }
+
+@media (max-width: 885px) {
+  .menu-footer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer__copyright {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 776px) {
+  .menu-footer__items {
+    justify-content: center;
+  }
+}
