@@ -3555,26 +3555,26 @@ body::after {
   }
 }
 
-@supports (font-size: clamp(2.25rem, 0.4589552239rem + 2.9850746269vw, 2.75rem)) {
+@supports (font-size: clamp(1.25rem, 0.4589552239rem + 2.9850746269vw, 1.75rem)) {
   .slide-comm__text {
-    font-size: clamp(2.25rem, 0.4589552239rem + 2.9850746269vw, 2.75rem);
+    font-size: clamp(1.25rem, 0.4589552239rem + 2.9850746269vw, 1.75rem);
   }
 }
 
-@supports not (font-size: clamp(2.25rem, 0.4589552239rem + 2.9850746269vw, 2.75rem)) {
+@supports not (font-size: clamp(1.25rem, 0.4589552239rem + 2.9850746269vw, 1.75rem)) {
   .slide-comm__text {
-    font-size: calc(2.25rem + 0.5 * (100vw - 60rem) / 16.75);
+    font-size: calc(1.25rem + 0.5 * (100vw - 60rem) / 16.75);
   }
 }
 
 @media (max-width: 60em) {
-  @supports (font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 2.25rem)) {
+  @supports (font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 1.25rem)) {
     .slide-comm__text {
-      font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 2.25rem);
+      font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 1.25rem);
     }
   }
 
-  @supports not (font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 2.25rem)) {
+  @supports not (font-size: clamp(1.25rem, 0.65rem + 2.6666666667vw, 1.25rem)) {
     .slide-comm__text {
       font-size: calc(1.25rem + 1 * (100vw - 22.5rem) / 37.5);
     }
